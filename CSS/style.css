@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.main-section {
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+#ryanair-start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    
+    /* Gradient dhe foto si sfond */
+    background: linear-gradient(135deg, #00bfff, #005f6a), url('Images/ryanair.jpg');
+    
+    /* Sigurohuni që imazhi mbush krejt seksionin */
+    background-size: cover;  /* Kjo siguron që imazhi do të mbushë tërësisht seksionin */
+    background-position: center;  /* Pozicionimi i imazhit në qendër */
+    background-repeat: no-repeat;  /* Siguron që imazhi nuk do të përsëritet */
+
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#ryanair-start h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#ryanair-start p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+#ryanair-start .highlight {
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+/* Stilizimi i tabelës */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #005f6a;
+    color: white;
+    font-size: 1.1rem;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(even) td {
+    background-color: #e6f7ff;
+}
+
+tr:hover td {
+    background-color: #d1e7f9;
+    cursor: pointer;
+}
+
+
+
